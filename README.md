@@ -1,4 +1,4 @@
-# Automatic-Essay-Scoring (AES)
+# Automatic-Essay-Grading-System (AES)
 An Automated Essay Grading System (AEGS) is a tool designed to evaluate and score essays written in response to specific prompts. It involves the use of computer programs to automate the assessment process of essays. AEGS provides a systematic and efficient way to analyze and assign scores to essays, offering several benefits for educators and learners alike.
 
 For educators, an AEGS can save time and effort in grading large numbers of essays. Instead of manually reading and evaluating each essay, the system automates the scoring process, providing quicker results. This allows educators to allocate their time and resources more effectively, focusing on other aspects of teaching and providing feedback on areas where human judgment is critical.
