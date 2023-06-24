@@ -30,7 +30,8 @@ Once you have downloaded the dataset, you will have access to the essays and the
 
 ## Architecture Diagram
  
- ![arch]https://github.com/Satvik77/AEGS/blob/main/screenshots/arch.jpeg
+![image](https://github.com/Satvik77/AEGS/assets/83899207/1071fc97-3123-4ff7-9ed9-1a6d531ec342)
+
 
 
 ## Proposed Model
@@ -108,7 +109,8 @@ The Word2Vec model is computationally efficient and capable of learning word emb
 Finally, we employ a Dense layer with a single output unit to predict the score for each essay. This layer takes the learned representations from the LSTM and performs the final mapping to a predicted score value.
 
 For a detailed implementation of this module, including the preprocessing steps and the architecture of the neural network, you can refer to the Python notebook titled "Automatic Essay Scoring with NN.ipynb". This notebook contains the necessary code and explanations to understand and replicate the implementation of our essay scoring model using neural networks.
-https://github.com/Satvik77/AEGS/blob/main/screenshots/NN.png
+![image](https://github.com/Satvik77/AEGS/assets/83899207/7fd05d80-42f4-41f3-8736-b704c56a8338)
+
  
  **4. Creation of web App**
  
@@ -128,13 +130,16 @@ The essential of the webpage can be found in the folder, webapp. Screenshots of 
 
 
  # STEP 1
- https://github.com/Satvik77/AEGS/blob/main/screenshots/webpage%20(1).png
+![image](https://github.com/Satvik77/AEGS/assets/83899207/2bb52586-405f-4b80-b853-f54a23459a5d)
+
  
  # STEP 2
- https://github.com/Satvik77/AEGS/blob/main/screenshots/webpage%20(2).png
+![image](https://github.com/Satvik77/AEGS/assets/83899207/36e8dbcb-e00c-4d59-b232-7a2a319b2d1f)
+
 
  # STEP 3
- https://github.com/Satvik77/AEGS/blob/main/screenshots/webpage%20(3).png
+![image](https://github.com/Satvik77/AEGS/assets/83899207/521821bf-9118-40ab-b06b-a92f61209928)
+
 
  
  
