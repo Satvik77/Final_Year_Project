@@ -153,3 +153,77 @@ The outcomes of this project are encouraging and open up exciting possibilities 
 
 Overall, this project contributes to the advancement of essay scoring methodologies and showcases the potential of deep neural networks in this field. With further exploration and refinement, we aim to make significant strides in automated essay evaluation, providing valuable insights and feedback to writers while maintaining a high level of interpretability and accuracy.
 
+
+
+
+
+
+# Instructions 
+
+
+# Automated Essay Grading System (AEGS)
+
+This is an automated essay grading system implemented using Flask, machine learning techniques, and natural language processing (NLP). The system evaluates and scores essays written in response to specific prompts. It utilizes various models and algorithms to classify essays into discrete grade categories.
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-Satvik77/automated-essay-grading-system.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd automated-essay-grading-system
+   ```
+
+3. Create and activate a virtual environment (optional but recommended):
+   ```
+   python3 -m venv venv
+   ```
+   - On Windows: 
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux: 
+     ```
+     source venv/bin/activate
+     ```
+
+4. Install the required packages using pip:
+   ```
+   pip install -r requirements.txt
+   ```
+
+
+
+
+
+
+## Usage
+
+1. Prepare the dataset:
+   - Ensure that your dataset is in the correct format and located in the appropriate directory.
+   - Modify the necessary file paths and configurations in the code according to your dataset.
+
+2. Start the Flask application:
+   ```
+   python app.py
+   ```
+
+3. Access the application:
+   - Open your web browser and visit `http://localhost:5000` or the specified host and   port(i.e.http://localhost:8000)
+   - Use the provided user interface to interact with the automated essay grading system.
+
+## Additional Notes
+
+- If you encounter any issues or errors related to missing dependencies, ensure that you have installed all the required packages mentioned in the `requirements.txt` file.
+- Modify the code and configurations as per your requirements and specific use cases.
+- Refer to the code comments and documentation for more detailed information about the implementation.
+
+---
+
+
+
+
+
