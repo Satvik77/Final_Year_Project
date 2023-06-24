@@ -13,7 +13,7 @@ https://www.kaggle.com/c/asap-aes/data
 
 ## Architecture Diagram
  
- ![arch]
+ ![arch]https://github.com/Satvik77/AEGS/blob/main/screenshots/arch.jpeg
 
 
 ## Proposed Model
@@ -42,7 +42,7 @@ Python notebook for the implementation of this module can be found in the file, 
 Preprocessing steps for neural networks are different from preprocessing steps for machine learning algorithms. Our training data is fed into the Embedding Layer which is Word2Vec. Word2Vec is a shallow, two-layer neural network which is trained to reconstruct linguistic contexts of words. It takes as its input a large corpus of words and produces a vector space, typically of several hundred dimensions, with each unique word in the corpus being assigned a corresponding vector in the space. Word vectors are positioned in the vector space such that words that share common contexts in the corpus are located in close proximity to one another in the space. Word2Vec is a particularly computationally-efficient predictive model for learning word embeddings from raw text. Features from Word2Vec are fed into LSTM.  LSTM can learn which data in a sequence is important to keep or throw away. This largely helps in calculating scores from essays. Finally the Dense layer with output 1 predicts the score of each essay. 
 
 Python notebook for the implementation of this module can be found in the file, **Automatic Essay Scoring with NN.ipynb**
-![NN]
+![NN]https://github.com/Satvik77/AEGS/blob/main/screenshots/NN.png
  
  **4. Creation of web App**
  
@@ -50,6 +50,15 @@ After training our model, the next step was to make our project available to use
  
  The essential of the webpage can be found in the folder, **webapp**.
  Screenshots of the webpage can be found in the following links:
+
+ # STEP 1
+ https://github.com/Satvik77/AEGS/blob/main/screenshots/webpage%20(1).png
+ 
+ # STEP 2
+ https://github.com/Satvik77/AEGS/blob/main/screenshots/webpage%20(2).png
+
+ # STEP 3
+ https://github.com/Satvik77/AEGS/blob/main/screenshots/webpage%20(3).png
 
  
  
